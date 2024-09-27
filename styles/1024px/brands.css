@@ -1,0 +1,5 @@
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+  .brands img {
+    height: 6vw;
+  }
+}

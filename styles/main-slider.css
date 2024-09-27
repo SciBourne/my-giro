@@ -1,0 +1,121 @@
+.slide {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+
+  width: inherit;
+  height: inherit;
+  position: absolute;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+  opacity: 0;
+  z-index: 0;
+  transform: scale(1.5);
+
+  transition: transform ease-in-out 0.5s, opacity ease-in-out 0.5s;
+}
+
+
+.slide > h2 {
+  color: #FF3030;
+  font-size: 2vw;
+
+  margin: 0;
+  padding-top: 2vw;
+  padding-left: 4vw;
+}
+
+
+.slide > p {
+  color: #909090;
+  font-size: 1.1vw;
+
+  margin: 0;
+  padding-top: 0.4vw;
+  padding-left: 4vw;
+  max-width: 22vw;
+}
+
+
+.slide-1 { background-image: url(/public/img/slide-1.svg) }
+.slide-2 { background-image: url(/public/img/slide-2.svg) }
+.slide-3 { background-image: url(/public/img/slide-3.svg) }
+
+
+#slide-1:checked ~ .slider > .slide-1,
+#slide-2:checked ~ .slider > .slide-2,
+#slide-3:checked ~ .slider > .slide-3 {
+  opacity: 1;
+  z-index: 1;
+  transform: scale(1);
+}
+
+
+.starter-slider {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 100%;
+  height: min(45vw, 790px);
+
+  overflow: hidden;
+}
+
+
+.starter-slider > .slider {
+  position: relative;
+  width: inherit;
+  height: inherit;
+  overflow: hidden;
+}
+
+
+.starter-slider > input[type=radio] {
+  display: none;
+}
+
+
+.starter-slider > .controller {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 20px;
+
+  width: 140px;
+  height: 32px;
+}
+
+
+.starter-slider > .controller > label {
+  background: #2b2121;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 50%;
+
+  width: 32px;
+  height: 32px;
+
+  transition: background ease-in-out 0.5s;
+}
+
+
+.starter-slider > .controller > label:after {
+  display: block;
+  content: " ";
+  border-radius: 50%;
+}
+
+
+.starter-slider > .controller > label:hover,
+#slide-1:checked ~ .controller label:nth-of-type(1),
+#slide-2:checked ~ .controller label:nth-of-type(2),
+#slide-3:checked ~ .controller label:nth-of-type(3) {
+  background: #A33232;
+}

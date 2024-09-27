@@ -1,0 +1,26 @@
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+  header {
+    padding: 1.4vw;
+  }
+
+  .logo {
+    width: 20vw;
+    height: 8vw;
+  }
+
+  .header-phone-number {
+    grid-template-columns: 3vw 14vw;
+  }
+
+  .header-phone-number > .number {
+    font-size: 1.6vw;
+  }
+
+  .header-phone-number > .text {
+    font-size: 1.4vw;
+  }
+
+  button {
+    font-size: 1.4vw;
+  }
+}

@@ -1,0 +1,14 @@
+@media only screen and (min-width: 1366px) {
+  .header-phone-number {
+    grid-template-columns: 2.2vw 10vw;
+    gap: 0.2vw;
+  }
+
+  .header-phone-number > .number {
+    font-size: 1.1vw;
+  }
+
+  .header-phone-number > .text {
+    font-size: 1vw;
+  }
+}

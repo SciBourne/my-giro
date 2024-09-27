@@ -1,0 +1,17 @@
+@media only screen and (min-width: 1280px) and (max-width: 1365px) {
+  .header-phone-number {
+    grid-template-columns: 3vw 14vw;
+  }
+
+  .header-phone-number > .number {
+    font-size: 1.4vw;
+  }
+
+  .header-phone-number > .text {
+    font-size: 1.2vw;
+  }
+
+  button {
+    font-size: 1.2vw;
+  }
+}

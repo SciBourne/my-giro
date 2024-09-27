@@ -1,0 +1,7 @@
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .managers .manager-card {
+    > p {
+      width: 34vw;
+    }
+  }
+}

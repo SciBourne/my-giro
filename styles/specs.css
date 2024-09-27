@@ -1,0 +1,60 @@
+.specs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 100%;
+}
+
+
+.specs > .spec-list {
+  display: grid;
+  row-gap: 4vw;
+  margin-top: 4vw;
+
+  justify-content: center;
+  align-items: center;
+}
+
+
+.spec-list > .card {
+  display: grid;
+
+  grid-template-areas:
+    "H1 H1"
+    "i1 i2"
+    "i3 .";
+
+  align-items: center;
+  justify-content: center;
+}
+
+
+.spec-list > .card > h1 {
+  border-bottom: 0.2vw solid #312020;
+  padding-bottom: 1vw;
+  width: 100%;
+
+  grid-area: H1;
+  align-self: end;
+}
+
+
+.spec-list > .card > .pictogram {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  gap: 1vw;
+
+  > img {
+    width: 5vw;
+    height: 5vw;
+  }
+}
+
+
+.spec-list > .card-img {
+  display: flex;
+  align-items: center;
+}

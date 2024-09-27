@@ -1,0 +1,34 @@
+.head-background {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+
+  padding: 18vw 0 18vw 0;
+  width: 100%;
+  height: auto;
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    > img {
+      width: auto;
+      height: auto;
+    }
+  }
+}
+
+
+.head-left {
+  background-image: url(/public/img/head-background-left.svg);
+}
+
+
+.head-right {
+  background-image: url(/public/img/head-background-right.svg);
+}

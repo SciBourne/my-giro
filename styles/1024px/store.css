@@ -1,0 +1,25 @@
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+  .store {
+    font-size: 1.6vw;
+  }
+
+  .store > .store-list {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 1vw;
+  }
+
+  .store > .store-list > .product {
+    h3 {
+      font-size: 2.4vw;
+    }
+
+    .price {
+      font-size: 2.2vw;
+    }
+
+    button {
+      font-size: 2vw;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+h1 {
+  font-family: Montserrat;
+  font-weight: 400;
+  color: #FF3030;
+}
+
+
+h2 {
+  font-size: 1.6vw;
+}
+
+
+h3 {
+  font-size: 24px;
+  font-weight: 400;
+  color: #FF3030;
+}
+
+
+p {
+  color: #909090;
+  font-size: 24px;
+}

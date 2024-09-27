@@ -1,0 +1,9 @@
+body {
+  background: linear-gradient(0.25turn, #131312, #241111, #131312);
+  color: white;
+
+  font-family: Montserrat;
+
+  margin: 0;
+  padding: 0;
+}

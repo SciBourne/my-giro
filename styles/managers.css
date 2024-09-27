@@ -1,0 +1,40 @@
+.managers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 100%;
+}
+
+
+.managers > .content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  justify-content: center;
+  gap: 4vw;
+}
+
+
+.managers .manager-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  > h3 {
+    margin-bottom: 0;
+  }
+
+  > img {
+    border: 0.3vw solid #3D3D3D;
+    border-radius: 50%;
+  }
+
+  > p {
+    text-align: center;
+    color: #FFFFFF;
+
+    margin-top: 0.4vw;
+  }
+}

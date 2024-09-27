@@ -1,0 +1,23 @@
+@media only screen and (min-width: 1280px) and (max-width: 1365px) {
+  footer > .content {
+    > h2 {
+      font-size: 2vw;
+    }
+
+    > .contacts {
+      gap: 1.5vw;
+
+      > .contact {
+        font-size: 1.6vw;
+        gap: 1vw;
+      }
+    }
+  }
+
+  .copyright {
+    font-size: 1.6vw;
+
+    padding-top: 2vw;
+    padding-bottom: 4vw;
+  }
+}

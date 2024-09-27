@@ -1,0 +1,38 @@
+@media only screen and (min-width: 1280px) and (max-width: 1365px) {
+  .specs h1 {
+    font-size: 2.6vw;
+  }
+
+  .specs p {
+    font-size: 1.4vw;
+  }
+
+  .specs > .spec-list {
+    grid-template-columns: repeat(2, 40vw);
+
+    > .card {
+      grid-template-columns: repeat(2, 20vw);
+      grid-template-rows: repeat(3, 6vw);
+
+      img {
+        width: 8vw;
+        height: 8vw;
+      }
+    }
+  }
+
+  .spec-list > .card-img {
+    img {
+      width: 35vw;
+      height: 25vw;
+    }
+  }
+
+  .spec-list > .wide-screen {
+    display: flex;
+  }
+
+  .spec-list > .mobile-screen {
+    display: none;
+  }
+}

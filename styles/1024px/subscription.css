@@ -1,0 +1,16 @@
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+  .subscription > form {
+    width: 50%;
+    gap: 2vw;
+
+    > label {
+      font-size: 1.4vw;
+
+      > input {
+        font-size: 1.4vw;
+        padding-left: 1vw;
+        height: 4vw;
+      }
+    }
+  }
+}
